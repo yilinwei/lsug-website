@@ -7,7 +7,7 @@ import scalafmt._
 import mill.scalajslib._
 import webpack.{WebpackModule, NpmDependency}
 
-val catsEffectDep = ivy"org.typelevel::cats-effect::2.3.1"
+val catsEffectDep = ivy"org.typelevel::cats-effect::2.3.3"
 
 val monocleDeps = Agg(
   "monocle-core",
