@@ -67,7 +67,7 @@ object server extends ScalaModule {
   def ivyDeps =
     Agg(
       catsEffectDep,
-      ivy"io.chrisdavenport::log4cats-slf4j::1.1.1",
+      ivy"org.typelevel::log4cats-slf4j::1.2.0",
       ivy"ch.qos.logback:logback-classic:1.2.3"
     ) ++ Agg(
       "http4s-dsl",
